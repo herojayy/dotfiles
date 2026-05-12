@@ -1,0 +1,32 @@
+#!/bin/bash
+
+FILE=$XDG_PICTURES_DIR/screenshots/"$(date +"%Y-%m-%d_%H-%M-%S").png"
+
+if [[ "$1" == "--select" ]]; then
+    grim -g "$(slurp)" "$FILE"
+    STATUS=$?
+else
+    grim "$FILE"
+    STATUS=$?
+fi
+
+if [[ $STATUS -eq 0 ]]; then
+    wl-copy < "$FILE" &
+
+    action=$(notify-send \
+      --app-name "$0" \
+      --icon "$FILE" \
+      "New screenshot" "$FILE" \
+      -A "open=Open folder" \
+      -A "view=Open image" \
+      --wait)
+
+    case "$action" in
+      open)
+        xdg-open "$(dirname "$FILE")"
+        ;;
+      view)
+        xdg-open "$FILE"
+        ;;
+    esac
+fi
