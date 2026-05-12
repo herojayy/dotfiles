@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+set -e
+
+rsync -a --delete \
+  --exclude='.git/' \
+  --exclude='.zcompdump*' \
+  --exclude='*.zwc' \
+  --exclude='discord/' \
+  --exclude='net.imput.helium/' \
+  --exclude='cache/' \
+  --exclude='Cache/' \
+  --exclude='CachedData/' \
+  --exclude='GPUCache/' \
+  --exclude='Code Cache/' \
+  --exclude='storage/' \
+  --exclude='Service Worker/' \
+  --exclude='File System/' \
+  --exclude='DawnGraphiteCache/' \
+  --exclude='DawnWebGPUCache/' \
+  --exclude='IndexedDB/' \
+  --exclude='Local Storage/' \
+  --exclude='WebStorage/' \
+  --exclude='DIPS*' \
+  --exclude='SharedStorage*' \
+  --exclude='Singleton*' \
+  /home/hero/.config/ \
+  /home/hero/dotfiles/.config/
+
+cd /home/hero/dotfiles
+git status
