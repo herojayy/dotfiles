@@ -1,0 +1,12 @@
+{
+    "interval": 0, 
+    "wallpapers_dir": "$XDG_PICTURES_DIR/wallpapers", 
+    "wallpapers_cli": "awww img <picture>", 
+    "keyboard_cli": "asusctl aura static -c <color>", 
+    "keyboard_transition_cli": "asusctl aura breathe -c <prev> -C <color> -s high", 
+    "transition_duration": 1, 
+    "change_backlight": false, 
+    "notify": false, 
+    "backlight_transition": false, 
+    "rofi_theme": ""
+}

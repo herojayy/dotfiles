@@ -1,0 +1,98 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "5b9ff4032a2cd253e23b9d7e011294d6286f9d5d25746b13faf900ffbd3defbe",
+    "telemetry.devDeviceId": "a2399dfe-7a0f-4149-b202-2e94f914a4e7",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1778546036144"
+            }
+        ]
+    },
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/hero/media/pictures": "__default__profile__",
+            "file:///home/hero/downloads": "__default__profile__",
+            "file:///home/hero/media/pictures/screenshots": "__default__profile__",
+            "file:///home/hero/.local/share/PrismLauncher/instances/Homestead": "__default__profile__",
+            "file:///home/hero/.local/share/PrismLauncher/instances/Cobblemon%20Official%20Modpack%20%5BFabric%5D/minecraft/mods": "__default__profile__",
+            "file:///home/hero/.local/share/Steam/userdata/368739371/760/remote/1245620/screenshots": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1778546036144": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 1,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/hero/.config/VSCodium/Backups/1778546036144",
+            "uiState": {
+                "mode": 0,
+                "x": 1920,
+                "y": 140,
+                "width": 1200,
+                "height": 800
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 238,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "597ad18c454056b8d015dd0392a47fcc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "dd37cbe99c1feabbcd7ee3685d316473": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "22f123d87d3d9d35b798f143f315d5f8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "a1764c902ec6e35ffa61eb45359c692e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "33ba09b2592a8f43b65d6d70d6ca457f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

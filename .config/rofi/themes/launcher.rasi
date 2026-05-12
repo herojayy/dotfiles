@@ -1,0 +1,157 @@
+/**
+ *
+ * Authors:  Aditya Shakya (github: @adi1090x),
+ *           CebeM1nt      (github: @cebem1nt)
+ * 
+ **/
+
+@import "colors/colors.rasi"
+
+
+configuration {
+    show-icons:                 true;
+	drun-display-format:        "{name}";
+}
+
+* {
+    font:                       "CaskaydiaCove Nerd Font, bold 12";
+}
+
+window {
+    transparency:                "real";
+    location:                    west;
+    anchor:                      west;
+    padding:                     0;
+    margin:                      5px;
+    border-radius:               15px;
+    width:                       450px;
+    height:                      100%;
+    background-color:            @background;
+}
+
+mainbox {
+    border-radius:               0;
+    margin:                      0;
+    spacing:                     20px;
+    padding:                     40px;
+    background-color:            transparent;
+    children:                    [ "inputbar", "message", "listview", "mode-switcher"];
+}
+
+inputbar {
+    spacing:                     10px;
+    margin:                      0px;
+    padding:                     10px;
+    border:                      0px;
+    border-radius:               4px;
+    background-color:            @background-alt;
+    color:                       @foreground;
+    children:                    [ "entry" ];
+}
+
+entry {
+    background-color:            inherit;
+    color:                       inherit;
+    placeholder-color:           inherit;
+    placeholder:                 "Search...";
+}
+
+listview {
+    columns:                     1;
+    lines:                       10;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    spacing:                     5px;
+    margin:                      0px;
+    padding:                     0px;
+    border-radius:               0px;
+    background-color:            transparent;
+    color:                       @foreground;
+}
+
+element {
+    enabled:                     true;
+    spacing:                     8px;
+    margin:                      0px;
+    padding:                     8px;
+    border-radius:               4px;
+    background-color:            transparent;
+    color:                       @foreground;
+    cursor:                      pointer;
+}
+
+element selected.normal {
+    background-color:            @foreground;
+    text-color:                  @background;
+}
+
+element-icon {
+    background-color:            transparent;
+    color:                       inherit;
+    size:                        24px;
+    cursor:                      inherit;
+}
+
+element-text {
+    background-color:            transparent;
+    color:                       inherit;
+    cursor:                      inherit;
+    vertical-align:              0.7;
+    padding:                     0 0 0 4px;
+}
+
+mode-switcher{
+    enabled:                     true;
+    spacing:                     8px;
+    margin:                      0px;
+    padding:                     0px;
+    border-radius:               4px;
+    background-color:            @background-alt;
+    color:                       @foreground;
+}
+
+button {
+    font:                       "CaskaydiaCove Nerd Font Propo, bold 12";
+    padding:                     8px;
+    border:                      0px solid;
+    border-radius:               4px;
+    background-color:            transparent;
+    color:                       inherit;
+    cursor:                      pointer;
+}
+
+button selected {
+    background-color:            @foreground;
+    color:                       @background;
+}
+
+message {
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     0px;
+    border-radius:               0px;
+    background-color:            transparent;
+    color:                       @foreground;
+}
+
+textbox {
+    padding:                     8px;
+    border-radius:               4px;
+    background-color:            @background-alt;
+    color:                       @foreground;
+    placeholder-color:           @foreground;
+    vertical-align:              0.5;
+    blink:                       true;
+    markup:                      true;
+}
+
+error-message {
+    padding:                     10px;
+    border-radius:               0px;
+    background-color:            @background;
+    color:                       @foreground;
+}

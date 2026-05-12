@@ -1,0 +1,30 @@
+font-family = JetBrainsMono Nerd Font
+font-size = 13
+
+theme = catppuccin-mocha
+background-opacity = 0.9
+
+decoration 
+    blur {
+        enable = yes
+        size = 7
+        passes = 3
+        ignore_opacity = true  
+
+        noise = 0.08
+        contrast = 1.5
+
+        xray = 0.08
+        new_optimizations = true
+    }
+
+
+keybind = ctrl+shift+v=ignore
+keybind = performable:ctrl+v=paste_from_clipboard
+keybind = ctrl+shift+c=ignore
+keybind = performable:ctrl+c=copy_to_clipboard
+
+#cursor animation
+custom-shader = shaders/cursor_tail.glsl
+
+title = Ghostty

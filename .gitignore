@@ -1,0 +1,28 @@
+# caches
+**/cache/
+**/Cache/
+**/CachedData/
+**/GPUCache/
+**/Code Cache/
+**/logs/
+**/Logs/
+**/*.log
+
+# zsh cache
+.zcompdump*
+*.zwc
+
+# nested git repos
+**/.git/
+
+# common large/dependency folders
+**/node_modules/
+**/Trash/
+
+# secrets
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519

@@ -1,0 +1,53 @@
+{
+  "isRunBefore": true,
+  "isFirstSuccessfullAuthAttempt": false,
+  "isSeeOnboardingBefore": true,
+  "cid": "253da70e-7b4e-47e1-88c2-3ff3173b7f9d",
+  "disableHardwareAcceleration": false,
+  "saveCredentials": true,
+  "forcedMacOsEnableHardwareAcceleration": false,
+  "fileSaveDefaultPath": "/home/hero/downloads",
+  "showFolderSelectDialog": false,
+  "saveSymbolInterval": true,
+  "alertSettings": {
+    "enablePlaySound": true,
+    "enableShowNotification": true,
+    "volume": 100
+  },
+  "updateFailsCount": 0,
+  "tabTitle": [
+    {
+      "id": "symbolLogo",
+      "isVisible": true
+    },
+    {
+      "id": "ticker",
+      "isVisible": true
+    },
+    {
+      "id": "priceChangeIcon",
+      "isVisible": true
+    },
+    {
+      "id": "lastPrice",
+      "isVisible": true
+    },
+    {
+      "id": "priceChange",
+      "isVisible": true
+    },
+    {
+      "id": "layoutName",
+      "isVisible": true
+    }
+  ],
+  "crosshairSyncEnabled": true,
+  "macosHideTabsInFullscreen": false,
+  "theme": "dark",
+  "isAppTrackingEnabled": false,
+  "currentLocale": "en",
+  "proxyServerIpAddress": "",
+  "proxyServerPort": "",
+  "proxyProtocol": "http",
+  "isProxyEnabled": false
+}

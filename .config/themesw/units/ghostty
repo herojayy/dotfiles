@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd $HOME/.config/ghostty/
+
+if [[ "$1" == "dark" ]]; then
+    ln -fs theme.dark.toml theme.toml
+else
+    ln -fs theme.light.toml theme.toml
+fi

@@ -1,0 +1,7 @@
+[Default Applications]
+application/x-zerosize=firefox.desktop
+
+[Added Associations]
+application/x-zerosize=firefox.desktop;
+application/json=codium.desktop;
+application/x-shellscript=codium.desktop;
