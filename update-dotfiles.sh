@@ -26,5 +26,11 @@ rsync -a --delete \
   /home/hero/.config/ \
   /home/hero/dotfiles/.config/
 
+mkdir -p /home/hero/dotfiles/.local/bin
+mkdir -p /home/hero/dotfiles/wallpapers
+
+rsync -a --delete /home/hero/.local/bin/ /home/hero/dotfiles/.local/bin/
+rsync -a --delete /home/hero/wallpapers/ /home/hero/dotfiles/wallpapers/
+
 cd /home/hero/dotfiles
 git status
