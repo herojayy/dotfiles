@@ -33,9 +33,19 @@ rsync -a --delete \
 
 mkdir -p /home/hero/dotfiles/.local/bin
 mkdir -p /home/hero/dotfiles/wallpapers
+mkdir -p /home/hero/dotfiles/.local/share
 
 rsync -a --delete /home/hero/.local/bin/ /home/hero/dotfiles/.local/bin/
 rsync -a --delete /home/hero/wallpapers/ /home/hero/dotfiles/wallpapers/
+
+rsync -a --delete /home/hero/.local/share/applications/ /home/hero/dotfiles/.local/share/applications/
+rsync -a --delete /home/hero/.local/share/auto_walls/ /home/hero/dotfiles/.local/share/auto_walls/
+rsync -a --delete /home/hero/.local/share/hyprland/ /home/hero/dotfiles/.local/share/hyprland/
+rsync -a --delete /home/hero/.local/share/nwg-dock-hyprland/ /home/hero/dotfiles/.local/share/nwg-dock-hyprland/
+rsync -a --delete /home/hero/.local/share/sddm/ /home/hero/dotfiles/.local/share/sddm/
+rsync -a --delete /home/hero/.local/share/templates/ /home/hero/dotfiles/.local/share/templates/
+
+cp /home/hero/.local/share/nvim.desktop /home/hero/dotfiles/.local/share/ 2>/dev/null || true
 
 cd /home/hero/dotfiles
 git status
