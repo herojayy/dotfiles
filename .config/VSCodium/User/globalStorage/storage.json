@@ -1,13 +1,13 @@
 {
     "telemetry.sqmId": "",
     "telemetry.machineId": "5b9ff4032a2cd253e23b9d7e011294d6286f9d5d25746b13faf900ffbd3defbe",
-    "telemetry.devDeviceId": "a2399dfe-7a0f-4149-b202-2e94f914a4e7",
+    "telemetry.devDeviceId": "c5cf6616-65bc-44bd-9648-c16e5ce241af",
     "backupWorkspaces": {
         "workspaces": [],
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1778546036144"
+                "backupFolder": "1778566632645"
             }
         ]
     },
@@ -21,7 +21,7 @@
             "file:///home/hero/.local/share/Steam/userdata/368739371/760/remote/1245620/screenshots": "__default__profile__"
         },
         "emptyWindows": {
-            "1778546036144": "__default__profile__"
+            "1778566632645": "__default__profile__"
         }
     },
     "theme": "vs-dark",
@@ -56,7 +56,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/hero/.config/VSCodium/Backups/1778546036144",
+            "backupPath": "/home/hero/.config/VSCodium/Backups/1778566632645",
             "uiState": {
                 "mode": 0,
                 "x": 1920,
