@@ -19,7 +19,11 @@ rsync -a --delete \
   --exclude='DawnWebGPUCache/' \
   --exclude='IndexedDB/' \
   --exclude='Local Storage/' \
+  --exclude='Session Storage/' \
   --exclude='WebStorage/' \
+  --exclude='workspaceStorage/' \
+  --exclude='History/' \
+  --exclude='TransportSecurity' \
   --exclude='DIPS*' \
   --exclude='SharedStorage*' \
   --exclude='Singleton*' \
