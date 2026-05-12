@@ -1,7 +1,7 @@
 {
     "interval": 10000000000,
     "wallpapers_dir": "~/wallpapers",
-    "wallpapers_cli": "swww img <picture>", 
+    "wallpapers_cli": "awww img <picture>", 
     "keyboard_cli": "asusctl aura static -c <color>", 
     "keyboard_transition_cli": "asusctl aura breathe -c <prev> -C <color> -s high", 
     "change_backlight": false, 
