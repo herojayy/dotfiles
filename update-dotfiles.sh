@@ -24,6 +24,7 @@ rsync -a --delete \
   --exclude='workspaceStorage/' \
   --exclude='History/' \
   --exclude='TransportSecurity' \
+  --exclude='Network Persistent State' \
   --exclude='DIPS*' \
   --exclude='SharedStorage*' \
   --exclude='Singleton*' \
