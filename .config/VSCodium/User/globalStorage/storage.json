@@ -7,7 +7,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1778566632645"
+                "backupFolder": "1778569880210"
             }
         ]
     },
@@ -21,7 +21,7 @@
             "file:///home/hero/.local/share/Steam/userdata/368739371/760/remote/1245620/screenshots": "__default__profile__"
         },
         "emptyWindows": {
-            "1778566632645": "__default__profile__"
+            "1778569880210": "__default__profile__"
         }
     },
     "theme": "vs-dark",
@@ -56,7 +56,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/hero/.config/VSCodium/Backups/1778566632645",
+            "backupPath": "/home/hero/.config/VSCodium/Backups/1778569880210",
             "uiState": {
                 "mode": 0,
                 "x": 1920,
