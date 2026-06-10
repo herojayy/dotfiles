@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE=$XDG_PICTURES_DIR/screenshots/"$(date +"%Y-%m-%d_%H-%M-%S").png"
+FILE=/home/hero/media/screenshots/"$(date +"%Y-%m-%d_%H-%M-%S").png"
 
 if [[ "$1" == "--select" ]]; then
     grim -g "$(slurp)" "$FILE"

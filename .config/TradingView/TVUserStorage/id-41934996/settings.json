@@ -24,6 +24,17 @@
             ]
           }
         }
+      },
+      {
+        "command": "tab-closed",
+        "data": {
+          "windowPid": "d8b99bb7-6248-47cb-9d5b-2657c3d7564a",
+          "position": 4,
+          "active": true,
+          "title": "New tab",
+          "pinned": false,
+          "url": "tvd://new-tab"
+        }
       }
     ]
   },
@@ -86,7 +97,7 @@
               "charts": [
                 {
                   "active": true,
-                  "interval": "1D",
+                  "interval": "1W",
                   "symbol": "BINANCE:BTCUSD"
                 }
               ]
@@ -106,6 +117,24 @@
                   "active": true,
                   "interval": "1D",
                   "symbol": "BINANCE:ETHUSD"
+                }
+              ]
+            }
+          },
+          {
+            "persistentId": "d570017a-5f97-4e7d-9c81-9be1ccd3b56a",
+            "active": false,
+            "pinned": false,
+            "title": "HYPEUSDT.P",
+            "url": "https://www.tradingview.com/chart/4ivM1I4W/",
+            "fullscreen": false,
+            "symbol": {
+              "layoutType": "s",
+              "charts": [
+                {
+                  "active": true,
+                  "interval": "1W",
+                  "symbol": "BINANCE:HYPEUSDT.P"
                 }
               ]
             }
